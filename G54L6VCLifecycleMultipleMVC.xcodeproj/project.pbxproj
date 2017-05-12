@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4CB8CA781EC629A400269CB5 /* HumanSkinColoredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8CA771EC629A400269CB5 /* HumanSkinColoredVC.swift */; };
+		4CB8CA7A1EC63BB700269CB5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8CA791EC63BB700269CB5 /* DataManager.swift */; };
+		4CB8CA7F1EC63CAF00269CB5 /* CatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8CA7E1EC63CAF00269CB5 /* CatVC.swift */; };
 		4CD695F41EC617FE005C8D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD695F31EC617FE005C8D81 /* AppDelegate.swift */; };
 		4CD695F61EC617FE005C8D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD695F51EC617FE005C8D81 /* ViewController.swift */; };
 		4CD695F91EC617FE005C8D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD695F71EC617FE005C8D81 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		4CB8CA771EC629A400269CB5 /* HumanSkinColoredVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanSkinColoredVC.swift; sourceTree = "<group>"; };
+		4CB8CA791EC63BB700269CB5 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4CB8CA7E1EC63CAF00269CB5 /* CatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatVC.swift; sourceTree = "<group>"; };
 		4CD695F01EC617FE005C8D81 /* G54L6VCLifecycleMultipleMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G54L6VCLifecycleMultipleMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD695F31EC617FE005C8D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD695F51EC617FE005C8D81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CB8CA7B1EC63BC900269CB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8CA791EC63BB700269CB5 /* DataManager.swift */,
+				4CD695F31EC617FE005C8D81 /* AppDelegate.swift */,
+				4CD695FF1EC617FE005C8D81 /* Info.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4CB8CA7C1EC63BDD00269CB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CD695FA1EC617FE005C8D81 /* Assets.xcassets */,
+				4CD695FC1EC617FE005C8D81 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4CB8CA7D1EC63BF500269CB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8CA771EC629A400269CB5 /* HumanSkinColoredVC.swift */,
+				4CD695F51EC617FE005C8D81 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		4CD695E71EC617FE005C8D81 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +88,11 @@
 		4CD695F21EC617FE005C8D81 /* G54L6VCLifecycleMultipleMVC */ = {
 			isa = PBXGroup;
 			children = (
-				4CB8CA771EC629A400269CB5 /* HumanSkinColoredVC.swift */,
-				4CD695F31EC617FE005C8D81 /* AppDelegate.swift */,
-				4CD695F51EC617FE005C8D81 /* ViewController.swift */,
 				4CD695F71EC617FE005C8D81 /* Main.storyboard */,
-				4CD695FA1EC617FE005C8D81 /* Assets.xcassets */,
-				4CD695FC1EC617FE005C8D81 /* LaunchScreen.storyboard */,
-				4CD695FF1EC617FE005C8D81 /* Info.plist */,
+				4CB8CA7E1EC63CAF00269CB5 /* CatVC.swift */,
+				4CB8CA7B1EC63BC900269CB5 /* Model */,
+				4CB8CA7C1EC63BDD00269CB5 /* View */,
+				4CB8CA7D1EC63BF500269CB5 /* Controller */,
 			);
 			path = G54L6VCLifecycleMultipleMVC;
 			sourceTree = "<group>";
@@ -140,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD695F61EC617FE005C8D81 /* ViewController.swift in Sources */,
+				4CB8CA7A1EC63BB700269CB5 /* DataManager.swift in Sources */,
 				4CD695F41EC617FE005C8D81 /* AppDelegate.swift in Sources */,
 				4CB8CA781EC629A400269CB5 /* HumanSkinColoredVC.swift in Sources */,
+				4CB8CA7F1EC63CAF00269CB5 /* CatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
