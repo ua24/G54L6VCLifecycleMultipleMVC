@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CB8CA781EC629A400269CB5 /* HumanSkinColoredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8CA771EC629A400269CB5 /* HumanSkinColoredVC.swift */; };
 		4CD695F41EC617FE005C8D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD695F31EC617FE005C8D81 /* AppDelegate.swift */; };
 		4CD695F61EC617FE005C8D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD695F51EC617FE005C8D81 /* ViewController.swift */; };
 		4CD695F91EC617FE005C8D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD695F71EC617FE005C8D81 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CB8CA771EC629A400269CB5 /* HumanSkinColoredVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanSkinColoredVC.swift; sourceTree = "<group>"; };
 		4CD695F01EC617FE005C8D81 /* G54L6VCLifecycleMultipleMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G54L6VCLifecycleMultipleMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD695F31EC617FE005C8D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD695F51EC617FE005C8D81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		4CD695F21EC617FE005C8D81 /* G54L6VCLifecycleMultipleMVC */ = {
 			isa = PBXGroup;
 			children = (
+				4CB8CA771EC629A400269CB5 /* HumanSkinColoredVC.swift */,
 				4CD695F31EC617FE005C8D81 /* AppDelegate.swift */,
 				4CD695F51EC617FE005C8D81 /* ViewController.swift */,
 				4CD695F71EC617FE005C8D81 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				4CD695F61EC617FE005C8D81 /* ViewController.swift in Sources */,
 				4CD695F41EC617FE005C8D81 /* AppDelegate.swift in Sources */,
+				4CB8CA781EC629A400269CB5 /* HumanSkinColoredVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 				4CD696041EC617FE005C8D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

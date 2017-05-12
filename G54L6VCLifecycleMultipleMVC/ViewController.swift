@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         log()
+        title = "PuchPuch"
     }
     
     override func viewWillAppear(_ animated: Bool) {
