@@ -57,7 +57,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="uV8-38-O5y"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="idea" selectedImage="idea" id="uV8-38-O5y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xdo-no-2Bh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,11 +118,11 @@
             </objects>
             <point key="canvasLocation" x="3990" y="885"/>
         </scene>
-        <!--Item-->
+        <!--Navigation-->
         <scene sceneID="u0P-Ps-ayk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pnO-Yh-HJp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Fh6-rM-05o"/>
+                    <tabBarItem key="tabBarItem" title="Navigation" image="iphone_copyrighted" badgeValue="new" selectedImage="iphone_copyrighted" id="Fh6-rM-05o"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zUn-cc-JFa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -176,5 +176,7 @@
     </scenes>
     <resources>
         <image name="cat0" width="600" height="600"/>
+        <image name="idea" width="16" height="16"/>
+        <image name="iphone_copyrighted" width="16" height="16"/>
     </resources>
 </document>

@@ -29,7 +29,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         log()
-        title = "PuchPuch"
+        title = "title1"
+        navigationItem.title = "PuchPuch"
+//        tabBarItem.title =  "title1"
     }
     
     override func viewWillAppear(_ animated: Bool) {
